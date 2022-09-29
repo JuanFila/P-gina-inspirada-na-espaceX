@@ -1,0 +1,162 @@
+.container00{
+    &.container05{
+        background-image: url(../../img/falcon9/01.jpg);
+    }
+
+    &.container06{
+        background-image: url(../../img/falcon9/02.jpg);
+    }
+
+    &.carrossel01{
+        background-image: url(../../img/falcon9/03.jpg);
+    }
+
+    &.carrossel02{
+        background-image: url(../../img/falcon9/04.jpg);
+    }
+
+    &.carrossel03{
+        background-image: url(../../img/falcon9/05.jpg);
+    }
+
+    &.carrossel04{
+        background-image: url(../../img/falcon9/06.jpg);
+    }
+
+    &.carrossel05{
+        background-image: url(../../img/falcon9/07.jpg);
+    }
+    &.container07{
+        background-image: url(../../img/falcon9/08.jpg);
+    }
+}
+.titleFalcon9{
+    font-size: 90px;
+    font-family: "Rubki", sans-serif;
+    font-weight: 514;
+}
+.titleContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.numbers{
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.titleNumb{
+ font-size: 90px;
+}
+.SubTitleNumb{
+font-size: 20px;
+}
+.falcon9Desc{
+    font-size: 22px;
+    width: 640px;
+    line-height:50px ;
+}
+.containerFalcon9Desc{
+    display: grid;
+    height: 90vh;
+    align-items: center;
+    justify-content: left;
+}
+#overViewPosition{
+    width: 500px;
+    margin-left: 13%;
+    padding-top: 15%;
+}
+
+.carrosselSlide{
+    img{
+        height: 100vh;
+        width: auto;
+    }
+}
+
+.carousselText{
+    background-color: black;
+}
+
+.downloadDesc{
+    background-color: black;
+    height: 15vh;
+    padding: 240px;
+}
+
+a{
+    color:$color-copyright
+}
+
+#copy{
+    color:$color-copyright
+}
+
+
+@media (max-width: 1200px) {
+  .numbers p {
+    font-size: 20px;
+  }
+  .falcon9Desc{
+    width: 400px;
+    font-size: 20px;
+  }
+  #overViewPosition{
+    width: 400px;
+  }
+  .carrossel02{
+    padding-top: 100px;
+  }
+  #widhtTablo{
+    width: 350px;
+  }
+}
+
+@media (max-width: 900px) {
+  .falcon9Desc{
+    width: 350px;
+    font-size: 18px;
+  }
+  #overViewPosition{
+    font-size: 15px;
+  }
+  #widhtTablo{
+    width: 300px;
+  }
+  .descriptionOverView{
+    width: 300px;
+  }
+}
+
+@media (max-width: 750px) {
+
+  #overViewPosition{
+    width: 250px;
+  }
+  #widhtTablo{
+    width: 250px;
+  }
+  .descriptionOverView{
+    width: 250px;
+  }
+  .downloadDesc p {
+    font-size: 10px;
+  }
+  .downloadDesc button {
+ 
+    font-size: 10px;
+    width: 75px;
+    padding: 10px;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  //Realizar o media de 500px
+}
